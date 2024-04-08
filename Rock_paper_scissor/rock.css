@@ -1,0 +1,52 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: High Tower Text;
+    font-weight: bold;  
+    position: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}   
+.icon{
+    width: 90px;
+    height: 80px;
+}
+.icon-result{
+    width: 70px;
+    height: 60px;
+
+}
+button{
+    background-color: rgb(25, 25, 25);
+    color:black;
+    margin-top: 40px;
+    border-radius: 230px;
+    border-style: solid;
+    border-color: white;
+    padding: 50px;
+    border-width: 3px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.result{
+    font-size: large;
+    font-family: verdana;
+    font-weight: bolder;
+}
+h2{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.reset{
+    background-color: silver;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border-color: silver;
+    font-family: verdana;
+}
